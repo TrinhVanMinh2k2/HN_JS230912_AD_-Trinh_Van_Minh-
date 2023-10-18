@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+}
+
+.top,
+.bot,
+.sum,
+.total {
+    display: flex;
+}
+
+.top {
+    background-color: red;
+    justify-content: space-around;
+}
+
+.right_top {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.right_top span {
+    margin-top: 0;
+}
+
+.stopwatch {
+    padding: 0;
+    margin: 0;
+
+}
+
+.request {
+    padding-top: 5px;
+}
+
+.request button {
+    border: none;
+}
+
+.title {
+    width: 250px;
+}
+
+.close span {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.quantity {
+    padding-top: 15px;
+    margin-left: 200px;
+}
+
+.bot {
+    background-color: red;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+.bot input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    background-color: rgba(191, 200, 211, 0.592);
+    border-radius: 5px;
+}
+
+.btn button {
+    border: none;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.crown img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(174, 171, 171);
+}
+
+.total {
+    margin-top: -20px;
+}

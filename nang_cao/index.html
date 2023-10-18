@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <div class="top">
+            <div class="left_top">
+                <div class="sum">
+                    <p>Players: </p>
+                    <p id="sum"></p>
+                </div>
+                <div class="total">
+                    <p>Total Points: </p>
+                    <p id="total"></p>
+                </div>
+            </div>
+            <div class="center_top">
+                <h3>Rikkei Scoreboard</h3>
+            </div>
+            <div class="right_top">
+                <div>
+                    <p class="stopwatch">Stopwatch</p>
+                </div>
+                <div>
+                    <span id="time">0</span>
+                </div>
+                <div class="request">
+                    <button onclick="myTimer()" class="start">Start</button>
+                    <button onclick="myStopFunction()" class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+
+        </div>
+        <div class="bot">
+            <div class="input">
+                <input type="text" name="" id="text" placeholder="Enter a player's name">
+            </div>
+            <div class="btn">
+                <button onclick="handerSave()">Add Player</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
